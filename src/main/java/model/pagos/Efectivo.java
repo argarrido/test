@@ -8,6 +8,7 @@ public class Efectivo implements MedioDePago {
 	@Override
 	public double personaFisica(Factura factura) {
 		return 0.8 * factura.totalSinDescuento();
+		System.out.println("Pruebita");
 	}
 
 	@Override
