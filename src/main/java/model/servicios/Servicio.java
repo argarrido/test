@@ -4,6 +4,7 @@ import model.interfaces.IServicio;
 
 public abstract class Servicio implements IServicio, Cloneable {
 
+	private int s;
 	private static int nroId = 0;
 	private int id;
 
